@@ -12,12 +12,12 @@ public class Dopis implements java.io.Serializable
 
    private java.lang.Integer dopisID;
    private drazenvvg.edopis.TijeloDrzavneUprave posiljatelj;
-   private java.lang.String urBroj;
-   private java.lang.String vezaKlasa;
    private java.util.Date datumSlanja;
    private drazenvvg.edopis.TijeloDrzavneUprave primatelj;
    private java.lang.String predmet;
    private java.lang.String klasa;
+   private java.lang.String urBroj;
+   private java.lang.String vezaKlasa;
    private java.lang.String vezaUrBroj;
    private java.lang.String sadrzaj;
    private java.lang.String titulaOdgOsobe;
