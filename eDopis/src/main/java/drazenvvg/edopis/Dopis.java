@@ -10,18 +10,34 @@ public class Dopis implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label("Dopis ID")
    private java.lang.Integer dopisID;
+   @org.kie.api.definition.type.Label("Pošiljatelj")
    private drazenvvg.edopis.TijeloDrzavneUprave posiljatelj;
+   @org.kie.api.definition.type.Label("Datum slanja")
    private java.util.Date datumSlanja;
+   @org.kie.api.definition.type.Label("Primatelj")
    private drazenvvg.edopis.TijeloDrzavneUprave primatelj;
+   @org.kie.api.definition.type.Label("Predmet")
    private java.lang.String predmet;
+   @org.kie.api.definition.type.Label("Klasa")
    private java.lang.String klasa;
+   @org.kie.api.definition.type.Label("Ur. broj")
    private java.lang.String urBroj;
+   @org.kie.api.definition.type.Label("Veza klasa")
+   @org.kie.api.definition.type.Description("za odgovor na dopis")
    private java.lang.String vezaKlasa;
+   @org.kie.api.definition.type.Label("Veza Ur. broj")
+   @org.kie.api.definition.type.Description("za odgovor na dopis")
    private java.lang.String vezaUrBroj;
+   @org.kie.api.definition.type.Label("Sadržaj")
    private java.lang.String sadrzaj;
+   @org.kie.api.definition.type.Label("Titula odgovorne osobe")
    private java.lang.String titulaOdgOsobe;
+   @org.kie.api.definition.type.Label("Ime i prezime")
+   @org.kie.api.definition.type.Description("Ime i prezime odgovorne osobe")
    private java.lang.String odgovornaOsoba;
+   @org.kie.api.definition.type.Label("O tome obavijest")
    private drazenvvg.edopis.TijeloDrzavneUprave obavijest;
 
    public Dopis()
