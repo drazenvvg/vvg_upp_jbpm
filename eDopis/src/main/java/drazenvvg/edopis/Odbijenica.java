@@ -9,8 +9,53 @@ public class Odbijenica implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label(value = "Odbijenica ID")
+   private java.lang.Integer odbijenicaID;
+   @org.kie.api.definition.type.Label(value = "Datum")
+   private java.util.Date datum;
+   @org.kie.api.definition.type.Label(value = "Dopis")
+   private drazenvvg.edopis.Dopis dopis;
+
    public Odbijenica()
    {
+   }
+
+   public java.lang.Integer getOdbijenicaID()
+   {
+      return this.odbijenicaID;
+   }
+
+   public void setOdbijenicaID(java.lang.Integer odbijenicaID)
+   {
+      this.odbijenicaID = odbijenicaID;
+   }
+
+   public java.util.Date getDatum()
+   {
+      return this.datum;
+   }
+
+   public void setDatum(java.util.Date datum)
+   {
+      this.datum = datum;
+   }
+
+   public drazenvvg.edopis.Dopis getDopis()
+   {
+      return this.dopis;
+   }
+
+   public void setDopis(drazenvvg.edopis.Dopis dopis)
+   {
+      this.dopis = dopis;
+   }
+
+   public Odbijenica(java.lang.Integer odbijenicaID, java.util.Date datum,
+         drazenvvg.edopis.Dopis dopis)
+   {
+      this.odbijenicaID = odbijenicaID;
+      this.datum = datum;
+      this.dopis = dopis;
    }
 
 }
