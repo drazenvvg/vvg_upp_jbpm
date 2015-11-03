@@ -9,12 +9,15 @@ public class Odbijenica implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "Odbijenica ID")
+   @org.kie.api.definition.type.Label("Odbijenica ID")
    private java.lang.Integer odbijenicaID;
-   @org.kie.api.definition.type.Label(value = "Datum")
+   @org.kie.api.definition.type.Label("Datum")
    private java.util.Date datum;
-   @org.kie.api.definition.type.Label(value = "Dopis")
+   @org.kie.api.definition.type.Label("Dopis")
    private drazenvvg.edopis.Dopis dopis;
+
+   @org.kie.api.definition.type.Label(value = "Obavijesteno TDU")
+   private drazenvvg.edopis.TijeloDrzavneUprave obavijesten;
 
    public Odbijenica()
    {
@@ -50,12 +53,24 @@ public class Odbijenica implements java.io.Serializable
       this.dopis = dopis;
    }
 
+   public drazenvvg.edopis.TijeloDrzavneUprave getObavijesten()
+   {
+      return this.obavijesten;
+   }
+
+   public void setObavijesten(drazenvvg.edopis.TijeloDrzavneUprave obavijesten)
+   {
+      this.obavijesten = obavijesten;
+   }
+
    public Odbijenica(java.lang.Integer odbijenicaID, java.util.Date datum,
-         drazenvvg.edopis.Dopis dopis)
+         drazenvvg.edopis.Dopis dopis,
+         drazenvvg.edopis.TijeloDrzavneUprave obavijesten)
    {
       this.odbijenicaID = odbijenicaID;
       this.datum = datum;
       this.dopis = dopis;
+      this.obavijesten = obavijesten;
    }
 
 }
