@@ -17,10 +17,13 @@
 </field>
 <field position="1" name="id_dopis_primatelj" type="Subform" id="719501932">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;primatelj (id_dopis)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;primatelj (id_dopis)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_dopis/primatelj"/>
 <property name="outputBinding" value="our_dopis/primatelj"/>
+<property name="defaultSubform" value="preuzimanjeDopisa-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
 <field position="2" name="id_dopis_predmet" type="InputText" id="828725170">
@@ -91,10 +94,13 @@
 </field>
 <field position="8" name="id_dopis_obavijest" type="Subform" id="2080109377">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;obavijest (id_dopis)quot;"/>
+<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;obavijest (id_dopis)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="in_dopis/obavijest"/>
 <property name="outputBinding" value="our_dopis/obavijest"/>
+<property name="defaultSubform" value="preuzimanjeDopisa-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="in_dopis" name="#9BCAFA" type="dataModelerEntry" outId="our_dopis" value="drazenvvg.edopis.Dopis" id="id_dopis"/>
