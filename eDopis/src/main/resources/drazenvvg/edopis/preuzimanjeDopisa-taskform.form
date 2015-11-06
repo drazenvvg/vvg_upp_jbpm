@@ -3,5 +3,13 @@
 <property name="name" value="preuzimanjeDopisa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name="id_preuzimanje_naziv" type="InputText" id="497674673">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;naziv (id_preuzimanje)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_preuzimanje/naziv"/>
+<property name="outputBinding" value="out_preuzimanje/naziv"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="in_preuzimanje" name="#9BCAFA" type="dataModelerEntry" outId="out_preuzimanje" value="drazenvvg.edopis.TijeloDrzavneUprave" id="id_preuzimanje"/>
 </form>
