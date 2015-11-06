@@ -3,4 +3,5 @@
 <property name="name" value="preuzimanjeDopisa-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="in_preuzimanje" name="#9BCAFA" type="dataModelerEntry" outId="out_preuzimanje" value="drazenvvg.edopis.TijeloDrzavneUprave" id="id_preuzimanje"/>
 </form>
