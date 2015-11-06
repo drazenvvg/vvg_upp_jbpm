@@ -51,26 +51,6 @@
 <property name="outputBinding" value="our_dopis/predmet"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="id_dopis_sadrzaj" type="InputTextArea" id="938362249">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;sadrzaj (id_dopis)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
-<property name="readonly" value="false"/>
-<property name="isHTML" value="false"/>
-<property name="hideContent" value="false"/>
-<property name="inputBinding" value="in_dopis/sadrzaj"/>
-<property name="outputBinding" value="our_dopis/sadrzaj"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="9" name="id_dopis_titulaOdgOsobe" type="InputText" id="1549346901">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;titulaOdgOsobe (id_dopis)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="in_dopis/titulaOdgOsobe"/>
-<property name="outputBinding" value="our_dopis/titulaOdgOsobe"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
 <field position="6" name="id_dopis_vezaKlasa" type="InputText" id="1153611666">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -88,6 +68,42 @@
 <property name="inputBinding" value="in_dopis/vezaUrBroj"/>
 <property name="outputBinding" value="our_dopis/vezaUrBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="id_dopis_sadrzaj" type="InputTextArea" id="938362249">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;sadrzaj (id_dopis)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="readonly" value="false"/>
+<property name="isHTML" value="false"/>
+<property name="hideContent" value="false"/>
+<property name="inputBinding" value="in_dopis/sadrzaj"/>
+<property name="outputBinding" value="our_dopis/sadrzaj"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="id_dopis_titulaOdgOsobe" type="InputText" id="1549346901">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;titulaOdgOsobe (id_dopis)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_dopis/titulaOdgOsobe"/>
+<property name="outputBinding" value="our_dopis/titulaOdgOsobe"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="id_dopis_odgovornaOsoba" type="InputText" id="1076872410">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;odgovornaOsoba (id_dopis)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_dopis/odgovornaOsoba"/>
+<property name="outputBinding" value="our_dopis/odgovornaOsoba"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="id_dopis_obavijest" type="Subform" id="2080109377">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;obavijest (id_dopis)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="in_dopis/obavijest"/>
+<property name="outputBinding" value="our_dopis/obavijest"/>
+<property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="in_dopis" name="#9BCAFA" type="dataModelerEntry" outId="our_dopis" value="drazenvvg.edopis.Dopis" id="id_dopis"/>
 </form>
