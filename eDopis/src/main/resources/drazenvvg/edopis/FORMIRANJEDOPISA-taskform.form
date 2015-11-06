@@ -97,5 +97,4 @@
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
 <dataHolder inputId="in_dopis" name="#9BCAFA" type="dataModelerEntry" outId="our_dopis" value="drazenvvg.edopis.Dopis" id="id_dopis"/>
-<dataHolder inputId="in_preuzimanje" name="#9BCAFA" type="dataModelerEntry" outId="out_preuzimanje" value="drazenvvg.edopis.TijeloDrzavneUprave" id="id_preuzimanje"/>
 </form>
