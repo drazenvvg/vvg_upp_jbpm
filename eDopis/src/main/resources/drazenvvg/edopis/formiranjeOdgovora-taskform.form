@@ -3,8 +3,9 @@
 <property name="name" value="formiranjeOdgovora-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="id_odgovor_datumSlanja" type="InputDate" id="94841526">
+<field position="1" name="id_odgovor_datumSlanja" type="InputDate" id="94841526">
 <property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;datumSlanja (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -14,9 +15,9 @@
 <property name="outputBinding" value="out_odgovor/datumSlanja"/>
 <property name="fieldClass" value="java.util.Date"/>
 </field>
-<field position="1" name="id_odgovor_primatelj" type="Subform" id="1615009003">
+<field position="2" name="id_odgovor_primatelj" type="Subform" id="1615009003">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;primatelj (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;primatelj (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -25,7 +26,7 @@
 <property name="defaultSubform" value="preuzimanjeDopisa-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
 </field>
-<field position="2" name="id_odgovor_predmet" type="InputText" id="176753603">
+<field position="3" name="id_odgovor_predmet" type="InputText" id="176753603">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;predmet (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -37,7 +38,7 @@
 <property name="outputBinding" value="out_odgovor/predmet"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="id_odgovor_vezaKlasa" type="InputText" id="1966846379">
+<field position="4" name="id_odgovor_vezaKlasa" type="InputText" id="1966846379">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;vezaKlasa (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -49,7 +50,7 @@
 <property name="outputBinding" value="out_odgovor/vezaKlasa"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="4" name="id_odgovor_vezaUrBroj" type="InputText" id="221823154">
+<field position="5" name="id_odgovor_vezaUrBroj" type="InputText" id="221823154">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;vezaUrBroj (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -61,7 +62,7 @@
 <property name="outputBinding" value="out_odgovor/vezaUrBroj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="5" name="id_odgovor_sadrzaj" type="InputText" id="1773441291">
+<field position="6" name="id_odgovor_sadrzaj" type="InputText" id="1773441291">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;sadrzaj (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -73,7 +74,7 @@
 <property name="outputBinding" value="out_odgovor/sadrzaj"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="6" name="id_odgovor_titulaOdgOsobe" type="InputText" id="561784009">
+<field position="7" name="id_odgovor_titulaOdgOsobe" type="InputText" id="561784009">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;titulaOdgOsobe (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -85,7 +86,7 @@
 <property name="outputBinding" value="out_odgovor/titulaOdgOsobe"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="7" name="id_odgovor_odgovornaOsoba" type="InputText" id="731527685">
+<field position="8" name="id_odgovor_odgovornaOsoba" type="InputText" id="731527685">
 <property name="fieldRequired" value="true"/>
 <property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;odgovornaOsoba (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
@@ -97,9 +98,9 @@
 <property name="outputBinding" value="out_odgovor/odgovornaOsoba"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="8" name="id_odgovor_obavijest" type="Subform" id="1742966548">
+<field position="9" name="id_odgovor_obavijest" type="Subform" id="1742966548">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;SSClassquot;,quot;quot;quot;SSStylequot;,quot;quot;quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;obavijest (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
+<property name="label" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;obavijest (id_odgovor)quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="errorMessage" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="title" value="quot;caquot;,quot;quot;quot;dequot;,quot;quot;quot;enquot;,quot;quot;quot;esquot;,quot;quot;quot;frquot;,quot;quot;quot;jaquot;,quot;quot;quot;ptquot;,quot;quot;quot;zhquot;,quot;quot;"/>
 <property name="readonly" value="false"/>
@@ -107,6 +108,21 @@
 <property name="outputBinding" value="out_odgovor/obavijest"/>
 <property name="defaultSubform" value="preuzimanjeDopisa-taskform.form"/>
 <property name="fieldClass" value="java.lang.Object"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1477070984">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;FORMIRANJE ODGOVORA&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="in_odgovor" name="#9BCAFA" type="dataModelerEntry" outId="out_odgovor" value="drazenvvg.edopis.Dopis" id="id_odgovor"/>
 </form>
