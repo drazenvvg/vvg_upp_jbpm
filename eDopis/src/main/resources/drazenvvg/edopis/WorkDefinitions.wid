@@ -10,7 +10,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   
   [
    "name" : "SlanjeWorkItemHandler",
-    "displayName" : "Hello World!",
+    "displayName" : "Slanje dopisa!",
     "icon" : "defaultemailicon.gif"
   ], 
   
