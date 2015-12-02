@@ -10,7 +10,9 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
-    <ksession name="odgovorsession" type="stateful" default="true" clockType="realtime">
+  </kbase>
+  <kbase name="odgovorkbase" default="false" eventProcessingMode="stream" equalsBehavior="identity">
+    <ksession name="dogovorsession" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdgovorWorkItemHandler" name="OdgovorWorkItemHandler"/>
       </workItemHandlers>
