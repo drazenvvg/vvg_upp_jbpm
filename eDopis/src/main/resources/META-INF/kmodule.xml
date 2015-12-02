@@ -8,6 +8,7 @@
     <ksession name="slanjesession" type="stateful" default="false" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdgovorWorkItemHandler" name="OdgovorWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
   </kbase>
