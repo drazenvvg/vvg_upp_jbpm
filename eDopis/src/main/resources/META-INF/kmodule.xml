@@ -10,5 +10,6 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
+    <ksession name="odgovorsession" type="stateful" default="false" clockType="realtime"/>
   </kbase>
 </kmodule>
