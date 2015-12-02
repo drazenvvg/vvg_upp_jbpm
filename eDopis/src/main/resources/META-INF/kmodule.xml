@@ -5,5 +5,10 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.HelloWorkItemHandler" name="HelloWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
+    <ksession name="slanjesession" type="stateful" default="true" clockType="realtime">
+      <workItemHandlers>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
+      </workItemHandlers>
+    </ksession>
   </kbase>
 </kmodule>
