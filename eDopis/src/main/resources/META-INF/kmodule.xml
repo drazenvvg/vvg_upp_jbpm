@@ -12,7 +12,7 @@
     </ksession>
   </kbase>
   <kbase name="odgovorkbase" default="false" eventProcessingMode="stream" equalsBehavior="identity">
-    <ksession name="dogovorsession" type="stateful" default="true" clockType="realtime">
+    <ksession name="dogovorsession" type="stateful" default="false" clockType="realtime">
       <workItemHandlers>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdgovorWorkItemHandler" name="OdgovorWorkItemHandler"/>
       </workItemHandlers>
