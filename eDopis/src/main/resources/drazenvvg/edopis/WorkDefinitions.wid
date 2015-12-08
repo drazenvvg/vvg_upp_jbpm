@@ -5,7 +5,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   [
    "name" : "SlanjeWorkItemHandler",
     "displayName" : "SLANJE DOPISA!",
-    "icon" : "defaultemailicon.gif"
+    "icon" : "defaultemailicon.gif",
     "results" : [
         "predmet" : new StringDataType()
         ] 
