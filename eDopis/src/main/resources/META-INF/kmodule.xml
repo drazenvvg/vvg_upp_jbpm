@@ -2,7 +2,6 @@
   <kbase name="mykbase" default="true" eventProcessingMode="cloud" equalsBehavior="identity">
     <ksession name="myksession" type="stateful" default="true" clockType="realtime">
       <workItemHandlers>
-        <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdgovorWorkItemHandler" name="OdgovorWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
