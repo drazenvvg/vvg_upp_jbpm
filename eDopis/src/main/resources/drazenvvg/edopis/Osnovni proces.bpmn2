@@ -22,7 +22,7 @@
   <bpmn2:itemDefinition id="__4B0D8F09-DA28-430B-A259-1B2D2E1BC257_dopisInInputXItem" structureRef="drazenvvg.edopis.Dopis"/>
   <bpmn2:itemDefinition id="__4B0D8F09-DA28-430B-A259-1B2D2E1BC257_dopisOutOutputXItem" structureRef="drazenvvg.edopis.Dopis"/>
   <bpmn2:itemDefinition id="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_out_dopisInputXItem" structureRef="drazenvvg.edopis.Dopis"/>
-  <bpmn2:itemDefinition id="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_predmetOutputXItem" structureRef="String"/>
+  <bpmn2:itemDefinition id="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_urBrojOutputXItem" structureRef="String"/>
   <bpmn2:process id="eDopis.Osnovniproces" drools:packageName="org.jbpm" drools:version="1.0" name="Osnovni proces">
     <bpmn2:property id="dopis" itemSubjectRef="_dopisItem"/>
     <bpmn2:property id="notifikacija" itemSubjectRef="_notifikacijaItem"/>
@@ -128,7 +128,7 @@
         <bpmn2:sourceRef>_6F2C6235-1F80-4445-848B-7B149C73B182_dopisOutOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>dopis</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:script><![CDATA[System.out.println("Predmet iz servisa: " + predmet +
+      <bpmn2:script><![CDATA[System.out.println("Predmet iz servisa: " + urBroj +
                     "\nSadrzaj:" + dopis.getSadrzaj());]]></bpmn2:script>
     </bpmn2:scriptTask>
     <bpmn2:callActivity id="_AC7BB430-8E45-4B9C-83A2-F19132980060" drools:selectable="true" drools:independent="true" drools:waitForCompletion="true" color:background-color="#339966" color:border-color="#000000" color:color="#000000" name="ZAPRIMANJE DOPISA" calledElement="eDopis.Zaprimanjedopisa">
@@ -324,13 +324,13 @@
       <bpmn2:ioSpecification id="_g1Bq0J8lEeWrarEmLv_L5w">
         <bpmn2:dataInput id="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_TaskNameInputX" name="TaskName"/>
         <bpmn2:dataInput id="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_out_dopisInputX" drools:dtype="drazenvvg.edopis.Dopis" itemSubjectRef="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_out_dopisInputXItem" name="out_dopis"/>
-        <bpmn2:dataOutput id="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_predmetOutputX" drools:dtype="String" itemSubjectRef="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_predmetOutputXItem" name="predmet"/>
+        <bpmn2:dataOutput id="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_urBrojOutputX" drools:dtype="String" itemSubjectRef="__67EB01E3-F1FA-44F0-AA90-24297BFB96E3_urBrojOutputXItem" name="urBroj"/>
         <bpmn2:inputSet id="_g1Bq0Z8lEeWrarEmLv_L5w">
           <bpmn2:dataInputRefs>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_out_dopisInputX</bpmn2:dataInputRefs>
           <bpmn2:dataInputRefs>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_TaskNameInputX</bpmn2:dataInputRefs>
         </bpmn2:inputSet>
         <bpmn2:outputSet id="_g1Bq0p8lEeWrarEmLv_L5w">
-          <bpmn2:dataOutputRefs>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_predmetOutputX</bpmn2:dataOutputRefs>
+          <bpmn2:dataOutputRefs>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_urBrojOutputX</bpmn2:dataOutputRefs>
         </bpmn2:outputSet>
       </bpmn2:ioSpecification>
       <bpmn2:dataInputAssociation id="_g1Bq058lEeWrarEmLv_L5w">
@@ -345,8 +345,8 @@
         <bpmn2:targetRef>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_out_dopisInputX</bpmn2:targetRef>
       </bpmn2:dataInputAssociation>
       <bpmn2:dataOutputAssociation id="_g1Bq2J8lEeWrarEmLv_L5w">
-        <bpmn2:sourceRef>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_predmetOutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>predmet</bpmn2:targetRef>
+        <bpmn2:sourceRef>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_urBrojOutputX</bpmn2:sourceRef>
+        <bpmn2:targetRef>urBroj</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:task>
     <bpmn2:sequenceFlow id="_FF947B1F-4C42-4A23-B08B-D12F24D67DA1" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3" targetRef="_6F2C6235-1F80-4445-848B-7B149C73B182"/>
