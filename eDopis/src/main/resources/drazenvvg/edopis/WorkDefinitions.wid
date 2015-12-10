@@ -4,9 +4,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 [
   [
    "name" : "SlanjeWorkItemHandler",
-    "parameters" : [
-      "dopis" : new ObjectDataType("org.jugvale.jbpm.workitemhandler.Dopis") 
-    ],
     "displayName" : "SLANJE DOPISA!",
     "icon" : "defaultemailicon.gif",
     "results" : [
