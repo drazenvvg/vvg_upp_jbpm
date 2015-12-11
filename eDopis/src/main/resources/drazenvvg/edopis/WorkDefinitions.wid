@@ -12,7 +12,7 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ], 
   
   [
-   "name" : "OdgovorWorkItemHandler",
+   "name" : "ZaprimanjeWorkItemHandler",
     "displayName" : "ZAPRIMANJE DOPISA!",
     "icon" : "defaultemailicon.gif"
   ],  
