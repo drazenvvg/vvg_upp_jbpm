@@ -15,7 +15,16 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
    "name" : "ZaprimanjeWorkItemHandler",
     "displayName" : "ZAPRIMANJE DOPISA!",
     "icon" : "defaultemailicon.gif"
-  ],   
+  ], 
+  
+  [
+   "name" : "UrudzbiranjeWorkItemHandler",
+    "displayName" : "URUDZBIRANJE DOPISA!",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+        "out_poruka" : new ObjectDataType()
+        ] 
+  ],  
   
   [
     "name" : "Email",
