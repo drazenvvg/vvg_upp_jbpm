@@ -5,6 +5,7 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.SlanjeWorkItemHandler" name="SlanjeWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ZaprimanjeWorkItemHandler" name="ZaprimanjeWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UrudzbiranjeWorkItemHandler" name="UrudzbiranjeWorkItemHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.PohranjivanjeWorkItemHandler" name="PohranjivanjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
   </kbase>
