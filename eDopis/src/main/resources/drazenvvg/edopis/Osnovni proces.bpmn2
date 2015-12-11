@@ -345,7 +345,7 @@
       </bpmn2:dataInputAssociation>
       <bpmn2:dataOutputAssociation id="_A4jVJZ9PEeWrarEmLv_L5w">
         <bpmn2:sourceRef>_67EB01E3-F1FA-44F0-AA90-24297BFB96E3_porukaOutputX</bpmn2:sourceRef>
-        <bpmn2:targetRef>urBroj</bpmn2:targetRef>
+        <bpmn2:targetRef>poruka</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
     </bpmn2:task>
     <bpmn2:sequenceFlow id="_FF947B1F-4C42-4A23-B08B-D12F24D67DA1" drools:selectable="true" color:background-color="#000000" color:border-color="#000000" color:color="#000000" sourceRef="_67EB01E3-F1FA-44F0-AA90-24297BFB96E3" targetRef="_6F2C6235-1F80-4445-848B-7B149C73B182"/>
