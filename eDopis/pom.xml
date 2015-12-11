@@ -7,6 +7,18 @@
   <version>1.0</version>
   <name>eDopis</name>
   <description>proces rada informacijskog sustav za elektroničku razmjenu dopisa između tijela državne uprave putem web servisa</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
+      <artifactId>slanje-workitemhandler</artifactId>
+      <version>1.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.jugvale.jbpm.workitemhandler</groupId>
+      <artifactId>zaprimanje-workitemhandler</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
   <build>
     <plugins>
       <plugin>
