@@ -30,12 +30,6 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
    "name" : "PohranjivanjeWorkItemHandler",
     "displayName" : "POHRANJIVANJE DOPISA!",
     "icon" : "defaultemailicon.gif"
-  ], 
-  
-  [
-   "name" : "OdbijenicaWorkItemHandler"
-    "displayName" : "ODBIJENICA!",
-    "icon" : "defaultemailicon.gif"
   ],
   
   [
