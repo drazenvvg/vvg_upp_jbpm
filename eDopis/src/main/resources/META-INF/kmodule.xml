@@ -9,6 +9,7 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdbijenicaWorkItemHandler" name="OdbijenicaWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.NotifikacijaWorkItemHandler" name="NotifikacijaWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.ObavijestWorkItemHandler" name="ObavijestWorkItemHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.PreuzimanjeWorkItemHandler" name="PreuzimanjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
   </kbase>
