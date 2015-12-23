@@ -3,6 +3,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
 
 [
   [
+   "name" : "PronalazenjeWorkItemHandler",
+    "displayName" : "PRONALAZENJE DOPISA!",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+        "out_poruka" : new StringDataType()
+        ] 
+  ],
+  
+  [
    "name" : "SlanjeWorkItemHandler",
     "displayName" : "SLANJE DOPISA!",
     "icon" : "defaultemailicon.gif",
