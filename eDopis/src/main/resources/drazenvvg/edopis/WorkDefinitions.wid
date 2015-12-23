@@ -57,6 +57,15 @@ import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
   ],
   
   [
+   "name" : "PreuzimanjeWorkItemHandler",
+    "displayName" : "ZAHTJEV ZA PREUZIMANJE!",
+    "icon" : "defaultemailicon.gif",
+    "results" : [
+        "out_poruka" : new ObjectDataType()
+        ] 
+  ],
+  
+  [
     "name" : "Email",
     "parameters" : [
       "From" : new StringDataType(),
