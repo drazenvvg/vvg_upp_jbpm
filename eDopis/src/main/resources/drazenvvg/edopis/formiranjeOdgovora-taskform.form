@@ -94,5 +94,5 @@
 <property name="outputBinding" value="out_odgovor/odgovornaOsoba"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="in_odgovor" name="#9BCAFA" type="dataModelerEntry" outId="out_odgovor" value="drazenvvg.edopis.Dopis" id="id_odgovor"/>
+<dataHolder inputId="ucitan_dopis" name="#E9E371" type="dataModelerEntry" outId="out_dopis" value="drazenvvg.edopis.Dopis" id="id_odgovor "/>
 </form>
