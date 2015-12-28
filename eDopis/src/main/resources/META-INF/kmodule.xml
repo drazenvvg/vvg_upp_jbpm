@@ -12,6 +12,7 @@
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.PreuzimanjeWorkItemHandler" name="PreuzimanjeWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.PronalazenjeWorkItemHandler" name="PronalazenjeWorkItemHandler"/>
         <workItemHandler type="org.jugvale.jbpm.workitemhandler.UcitavanjeWorkItemHandler" name="UcitavanjeWorkItemHandler"/>
+        <workItemHandler type="org.jugvale.jbpm.workitemhandler.OdgovaranjeWorkItemHandler" name="OdgovaranjeWorkItemHandler"/>
       </workItemHandlers>
     </ksession>
   </kbase>
